@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_aGiN4TPTEeqUFqSDAG6SWg" name="Date" dataPackage="_aGiN4jPTEeqUFqSDAG6SWg" Server="Localhost 127.0.0.1" FilePath="C:/Users/HP/Desktop/MASTERMSID/S3/BI/wamaDistribution/Tables/Date.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Feuil1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Feuil1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_aGiN4jPTEeqUFqSDAG6SWg" name="default" dataManager="_aGiN4TPTEeqUFqSDAG6SWg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_aGiN4zPTEeqUFqSDAG6SWg" id="_QDIPQDPTEeqUFqSDAG6SWg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGiN5DPTEeqUFqSDAG6SWg" label="IDDate" length="2" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGiN5TPTEeqUFqSDAG6SWg" label="Jours" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGiN5jPTEeqUFqSDAG6SWg" label="Mois" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aGiN5zPTEeqUFqSDAG6SWg" label="Annee" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
