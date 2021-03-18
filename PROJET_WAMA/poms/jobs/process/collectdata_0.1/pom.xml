@@ -36,8 +36,8 @@
     <talend.job.name>CollectData</talend.job.name>
     <talend.job.id>_ctjtYCm1EequI72nMeCDuA</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder></talend.job.folder>
-    <talend.job.framework></talend.job.framework>
+    <talend.job.folder/>
+    <talend.job.framework/>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
   </properties>
@@ -56,7 +56,7 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-compress</artifactId>
-      <version>1.18</version>
+      <version>1.20</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
